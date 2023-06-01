@@ -5,4 +5,14 @@
          <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://gis-xh.github.io/mkdocs-site/01base_setup/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gis-xh.github.io/mkdocs-site/02github_setup/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
