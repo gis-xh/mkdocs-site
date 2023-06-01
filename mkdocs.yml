@@ -38,7 +38,7 @@ theme:
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
 repo_url: https://github.com/gis-xh/mkdocs-site # 右上角点击跳转的链接
-repo_name: mkdocs-site # 右上角的名字
+repo_name: gis-xh/mkdocs-site # 右上角的名字
 ## [bottom-left corner]
 copyright: Copyright &copy; 2023 gis-xh # 左下角的版权声明
 ## [bottom-right corner]
@@ -52,7 +52,9 @@ extra:
 # [Navigtion] 导航栏
 nav:
   - 主页: index.md
-  - 模板实现: 
+  - 快速构建: 
+    - quick_start.md
+  - 模板构建记录: 
     - 1 搭建基础框架: 01base_setup.md
     - 2 GitHub 相关配置: 02github_setup.md
     - 3 评论系统配置: 03comments_setup.md

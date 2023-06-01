@@ -1,4 +1,4 @@
-# 模板实现（一）搭建基础框架
+# 模板构建记录（一）搭建基础框架
 
 
 
@@ -79,7 +79,7 @@ mkdocs new mkdocs-site
 
 ![image-20230601145403661](./img/image-20230601145403661.png)
 
-<center>图 1 创建网站基础模板</center>
+<center>图 2-1 创建网站基础模板</center>
 
 &emsp;&emsp;我们使用 VS Code 打开这个创建好的项目，它此时应该位于此目录：
 
@@ -89,7 +89,7 @@ E:\github\mkdocs-site
 
 ![image-20230601145601551](./img/image-20230601145601551.png)
 
-<center>图 2 项目初始目录</center>
+<center>图 2-2 项目初始目录</center>
 
 ### 2.2 配置工作流文件
 
@@ -146,7 +146,7 @@ jobs: # 工作流的具体内容
 
 ![image-20230601164743598](./img/image-20230601164743598.png)
 
-<center>图 3 配置 GitHub 工作流</center>
+<center>图 2-3 配置 GitHub 工作流</center>
 
 ### 2.3 备份虚拟环境
 
@@ -166,7 +166,7 @@ conda env export > site_env.yaml
 
 ![image-20230601164958435](./img/image-20230601164958435.png)
 
-<center>图 4 备份虚拟环境信息</center>
+<center>图 2-4 备份虚拟环境信息</center>
 
 
 
@@ -199,7 +199,7 @@ git init
 
 ![image-20230601152939930](./img/image-20230601152939930.png)
 
-<center>图 5 Git 初始化</center>
+<center>图 3-1 Git 初始化</center>
 
 ### 3.3 启动模板
 
@@ -211,13 +211,13 @@ mkdocs serve
 
 ![image-20230601153738196](./img/image-20230601153738196.png)
 
-<center>图 6 启动项目</center>
+<center>图 3-2 启动项目</center>
 
 &emsp;&emsp;此时，网站已经可以正常显示了，形式如下。
 
 ![image-20230601153854916](./img/image-20230601153854916.png)
 
-<center>图 7 项目界面</center>
+<center>图 3-3 项目界面</center>
 
 
 

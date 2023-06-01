@@ -10,7 +10,22 @@ comments: false
 
 
 
-## 常用命令
+## 1 快速构建
+
+- [Quick Start](quick_start.md)
+
+
+
+## 2 模板构建记录
+
+- [（一）搭建基础框架](01base_setup.md)
+- [（二）GitHub 相关配置](02github_setup.md)
+- [（三）评论系统配置](03comments_setup.md)
+- ……
+
+
+
+## 3 Mkdocs 常用命令
 
 * `mkdocs new [dir-name]` ：创建一个新项目
 
@@ -22,7 +37,7 @@ comments: false
 
 
 
-## 项目文件布局
+## 4 项目文件布局
 
 
 ```

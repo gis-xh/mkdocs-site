@@ -1,4 +1,4 @@
-# 模板实现（二）GitHub 相关配置
+# 模板构建记录（二）GitHub 相关配置
 
 
 
@@ -14,13 +14,13 @@
 
 ![image-20230601154842285](./img/image-20230601154842285.png)
 
-<center>图 1 创建 GitHub 新仓库</center>
+<center>图 1-1 创建 GitHub 新仓库</center>
 
 &emsp;&emsp;每创建一个新的仓库，GitHub 都会提示我们仓库初始设置的一系列 Git 命令。接下来，我们需要按照提示在本地上运行 Git 命令。
 
 ![image-20230601165514475](./img/image-20230601165514475.png)
 
-<center>图 2 新仓库的基本 Git 操作</center>
+<center>图 1-2 新仓库的基本 Git 操作</center>
 
 
 
@@ -64,7 +64,7 @@ git push -u origin main
 
 ![image-20230601165803315](./img/image-20230601165803315.png)
 
-<center>图 3 首次提交全过程记录</center>
+<center>图 2-1 首次提交全过程记录</center>
 
 ### 2.2 查看 GitHub 仓库
 
@@ -72,7 +72,7 @@ git push -u origin main
 
 ![image-20230601170026554](./img/image-20230601170026554.png)
 
-<center>图 4 查看首次提交结果</center>
+<center>图 2-2 查看首次提交结果</center>
 
 
 
@@ -84,13 +84,13 @@ git push -u origin main
 
 ![image-20230601170813331](./img/image-20230601170813331.png)
 
-<center>图 5 保护主分支</center>
+<center>图 3-1 保护主分支</center>
 
 &emsp;&emsp;此时我们回到主界面点击分支，可以看到，我们拥有了主分支 main 和 部署分支 gh-pages，说明工作流顺利运行了。
 
 ![image-20230601171044443](./img/image-20230601171044443.png)
 
-<center>图 6 查看分支</center>
+<center>图 3-2 查看分支</center>
 
 ### 3.2 打开 Discussions
 
@@ -98,7 +98,7 @@ git push -u origin main
 
 ![image-20230601155631748](./img/image-20230601155631748.png)
 
-<center>图 7 打开 Discussions</center>
+<center>图 3-3 打开 Discussions</center>
 
 ### 3.3 配置 GitHub Pages
 
@@ -106,19 +106,19 @@ git push -u origin main
 
 ![image-20230601172102689](./img/image-20230601172102689.png)
 
-<center>图 8 配置 GitHub Pages 分支</center>
+<center>图 3-4 配置 GitHub Pages 分支</center>
 
-稍等片刻，重新刷新页面，就可以看到网站已经成功部署了，并且给出了对应网址。
+&emsp;&emsp;稍等片刻，重新刷新页面，就可以看到网站已经成功部署了，并且给出了对应网址。
 
 ![image-20230601172318008](./img/image-20230601172318008.png)
 
-<center>图 8 成功部署</center>
+<center>图 3-5 成功部署</center>
 
 - https://gis-xh.github.io/mkdocs-site/，这个网址将会向全互联网公开访问，并且内容显示也是与本地部署时一模一样的。
 
 ![image-20230601172520705](./img/image-20230601172520705.png)
 
-<center>图 9 查看网站</center>
+<center>图 3-6 查看网站</center>
 
 ### 3.4 再次提交
 
