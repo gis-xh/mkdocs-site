@@ -1,0 +1,10 @@
+# [Info] 基本信息
+site_name: mkdocs 网站模板 # 左上角标题
+site_url: https://gis-xh.github.io/mkdocs-site
+site_author: gis-xh
+site_description: 基于 mkdocs-material 的静态网站模板
+
+# [UI] 界面设置
+## [top]
+theme:
+  name: material
