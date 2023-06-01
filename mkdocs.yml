@@ -55,6 +55,7 @@ nav:
   - 模板实现: 
     - 1 搭建基础框架: 01base_setup.md
     - 2 GitHub 相关配置: 02github_setup.md
+    - 3 评论系统配置: 03comments_setup.md
 
 
 # [Extensions] 扩展

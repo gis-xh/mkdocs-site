@@ -1,3 +1,7 @@
+---
+comments: false
+---
+
 # 基于 mkdocs-material 的静态网站模板
 
 
@@ -22,14 +26,15 @@
 
 
 ```
-mkdocs.yml    # 配置文件，所有网站配置都在这里
+mkdocs.yml    		# 配置文件，所有网站配置都在这里
 docs/
 	mkdocs/
 		overrides/	# 覆盖 mkdocs 网站的底层样式
 		css/		# 放置额外的 css 文件
 		js/			# 放置额外的 js 文件
-    index.md  # 文档 Home 主页面
-    ...       # 其他 markdown 页面，图片和其他文件
+    index.md		# 文档 Home 主页面
+	.meta.yml		# 文件元数据设置
+	...       		# 其他 markdown 页面，图片和其他文件
 ```
 
 
